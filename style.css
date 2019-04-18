@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+
+body {
+  background-color: #4da6ff;
+  text-align: center;
+  font-family: 'Raleway', Helvetica, sans-serif;
+  min-width: 320px;
+  font-size: 1.2em;
+}
+
+header {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 20px;
+}
+
+#form-outer {
+  background: rgb(255,0,0);
+  background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(9,9,121,0) 40%, rgba(7,50,148,0) 60%, rgba(255,0,0,1) 100%);
+  margin: 0 auto;
+  border-radius: 10px;
+  width: 75%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+#description {
+  font-size: 1.2em;
+  
+}
+
+hr {
+  margin-top: -20px;
+  margin-bottom: 20px;
+  width:auto;
+  max-width: 400px;
+  border: none;
+  border-top: 3px double #333;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+  
+}
+
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.rightTab {
+  
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+}
+
+.input-field {
+  background-color:#ffffcc;
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.input-field:hover {
+  box-shadow: 0px 0px 30px 4px rgba(255,0,0,0.73); 
+}
+
+#userAge {
+  background-color:#ffffcc;
+  width: 40px;
+}
+
+.userRatings,
+input[type="checkbox"] {
+  background-color:#ffffcc;
+  float: left;
+  margin-right: 5px;
+}
+
+#submit {
+  background-color: #ff0000;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.1em;
+  height: 40px;
+  width: 96px;
+  margin: 10px;
+  border: 0px solid;
+  box-shadow: inset 0px 0px 20px 4px #4da6ff; 
+  /*box-shadow: 0px 0px 30px 4px rgba(255,0,0,0.73), inset 0px 0px 30px 4px #4da6ff; */
+}
+
+#submit:hover {
+  box-shadow: 0px 0px 30px 4px rgba(255,0,0,0.73); 
+}
+
+.dropdown {
+  background-color:#ffffcc;
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+  font-size: 14px;
+}
+
+.dropdown:hover {
+  box-shadow: 0px 0px 30px 4px rgba(255,0,0,0.73); 
+}
+
+.radio,
+.checkbox {
+  position: relative;
+  left: -43px;
+  margin-left: 10px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 833px) {
+  .input-field {
+    width: 80%;
+  }
+
+  /*select {
+    width: 90%;
+  }*/
+}
+
+@media screen and (max-width: 520px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+
+  .rightTab {
+    width: 80%;
+    float: left;
+  }
+
+  .input-field {
+    width: 100%;
+  }
+
+  select {
+    width: 100%;
+  }
+
+}
